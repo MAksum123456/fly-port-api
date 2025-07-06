@@ -1,2 +1,95 @@
-.idea
-.venv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+db.sqlite3
+media/
+staticfiles/
+
+# If you are using local settings
+local_settings.py
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+.env
+
+# Docker volumes (optional if you use volumes locally)
+**/volumes/
+
+# Env files with secrets or environment variables
+.env.*
+
+# Logs
+logs/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+
+
+# Віртуальне середовище (приклади)
+
+.env/
+
+# Логи
+
+# Django
+*.sqlite3
+
+uploads/
+uploads/images/
+
+
+*.swp
+*.swo
+
+**/migrations/
+!**/migrations/__init__.py
